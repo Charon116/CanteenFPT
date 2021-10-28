@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpChef">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/img_5"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đăng ký cửa hàng"
+        android:textColor="#ECA926"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPhoneChef"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_signinsignup"
+        android:ems="10"
+        android:hint="Phone"
+        android:textColor="#A6A8AC"
+        android:drawablePadding="15dp"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextEmailChef"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_signinsignup"
+        android:ems="10"
+        android:hint="Email"
+        android:textColor="#A6A8AC"
+        android:drawablePadding="15dp"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/ic_baseline_storefront_24"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/editTextPasswordChef"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_signinsignup"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#A6A8AC"
+        android:drawablePadding="15dp"
+        android:paddingStart="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:layout_margin="30dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSignUpChef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_signin"
+        android:text="Đăng ký"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/txtChangeSignupCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/maunut">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nếu là nhà bán hàng"
+            android:textSize="18sp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/txtChangetoSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/maunut">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="với tài khoản của bạn"
+            android:textSize="18sp">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

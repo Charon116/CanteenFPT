@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/btnred.xml" value="0.15726495726495726" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/button_shape.xml" value="0.15726495726495726" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/camerashapebtn.xml" value="0.326171875" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/custom_detail_product.xml" value="0.215625" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/custom_input.xml" value="0.215625" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/custom_signin.xml" value="0.19054054054054054" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/custom_signinsignup.xml" value="0.19054054054054054" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/custom_start.xml" value="0.2203125" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/elegant_btnshape.xml" value="0.15726495726495726" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/ic_baseline_assignment_24.xml" value="0.2203125" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.2203125" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.19054054054054054" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/ic_baseline_payment_24.xml" value="0.2203125" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.19054054054054054" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/ic_camera_alt_24.xml" value="0.1698198198198198" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/drawable/ic_search.xml" value="0.215625" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_chef_add_food.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_chef_food_panel_bottom_navigation.xml" value="0.18" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_customer_food_panel_bottom_navigation.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_customer_verify_phone.xml" value="0.21" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_main_menu.xml" value="0.17657657657657658" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_order_food.xml" value="0.25" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_sign_in_chef.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_sign_up_chef.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_sign_up_customer.xml" value="0.2" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/activity_update_delete_food.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/cart.xml" value="0.25" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/cart_placeorder.xml" value="0.25" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/chefmenu_update_delete.xml" value="0.12" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/customer_menudish.xml" value="0.1" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/customer_menufood.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/detail_product.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/fragment_chef_home.xml" value="0.11911231884057971" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/fragment_chef_orders.xml" value="0.11911231884057971" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/fragment_chef_pendingorders.xml" value="0.11911231884057971" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/fragment_chef_profile.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/fragment_customer_cart.xml" value="0.25" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/fragment_customer_home.xml" value="0.22" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/fragment_customer_orders.xml" value="0.11911231884057971" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/fragment_customer_profile.xml" value="0.11911231884057971" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/order_product.xml" value="0.25" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/start_product.xml" value="0.2" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/layout/start_signinsignup.xml" value="0.18" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/menu/chef_bottom_navigation.xml" value="0.17657657657657658" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/menu/customer_bottom_navigation.xml" value="0.17657657657657658" />
+        <entry key="..\:/CanteenFPT/app/src/main/res/menu/logout.xml" value="0.17657657657657658" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

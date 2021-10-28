@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CanteenFPT</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notification">Notification</string>
+
+    <string-array name="State">
+        <item>DaNang</item>
+    </string-array>
+
+    <string-array name="DishName">
+        <item>Mi Quang</item>
+        <item>Com Tam</item>
+        <item>Mi Y</item>
+        <item>Bun Bo</item>
+    </string-array>
+</resources>

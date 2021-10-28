@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E79638"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/img_3"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Canteen FPT App"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_start"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="Đăng nhập"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_start"
+        android:text="Đăng ký"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="624dp" />
+</LinearLayout>
