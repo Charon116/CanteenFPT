@@ -13,6 +13,7 @@ import android.view.animation.AnimationUtils;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -38,6 +39,8 @@ public class CustomerHomeFragment extends Fragment implements SwipeRefreshLayout
     private CustomerHomeAdapter adapter;
     DatabaseReference dataa,databaseReference;
     SwipeRefreshLayout swipeRefreshLayout;
+    SearchView searchView;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -83,6 +86,10 @@ public class CustomerHomeFragment extends Fragment implements SwipeRefreshLayout
     @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
         inflater.inflate(R.menu.logout,menu);
+        inflater.inflate(R.menu.search, menu);
+        MenuItem menuItem = menu.findItem(R.id.Searchdish);
+        searchView = (SearchView) menuItem.getActionView();
+        searchView.setQueryHint("Search Dish");
     }
 
     @Override
@@ -131,5 +138,31 @@ public class CustomerHomeFragment extends Fragment implements SwipeRefreshLayout
                 swipeRefreshLayout.setRefreshing(false);
             }
         });
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                search(newText);
+                return true;
+            }
+        });
+    }
+
+    private void search(final String searchtext) {
+
+        ArrayList<UpdateFoodModel> mylist = new ArrayList<>();
+        for (UpdateFoodModel object : updateFoodModelList) {
+            if (object.getName().toLowerCase().contains(searchtext.toLowerCase())) {
+                mylist.add(object);
+            }
+        }
+        adapter = new CustomerHomeAdapter(getContext(), mylist);
+        recyclerView.setAdapter(adapter);
+
     }
 }

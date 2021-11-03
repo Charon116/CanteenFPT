@@ -52,6 +52,9 @@
         <entry key="..\:/CanteenFPT/app/src/main/res/menu/chef_bottom_navigation.xml" value="0.17657657657657658" />
         <entry key="..\:/CanteenFPT/app/src/main/res/menu/customer_bottom_navigation.xml" value="0.17657657657657658" />
         <entry key="..\:/CanteenFPT/app/src/main/res/menu/logout.xml" value="0.17657657657657658" />
+        <entry key="app/src/main/res/menu/chef_bottom_navigation.xml" value="0.24947916666666667" />
+        <entry key="app/src/main/res/menu/logout.xml" value="0.24947916666666667" />
+        <entry key="app/src/main/res/menu/search.xml" value="0.24947916666666667" />
       </map>
     </option>
   </component>
