@@ -3,9 +3,6 @@ package com.example.canteenfpt.customerFoodPanel;
 public class Cart {
     private String ChefId,DishID,DishName,DishQuantity,Price,Totalprice;
 
-    public Cart() {
-    }
-
     public Cart(String chefId, String dishID, String dishName, String dishQuantity, String price, String totalprice) {
         ChefId = chefId;
         DishID = dishID;
@@ -13,6 +10,9 @@ public class Cart {
         DishQuantity = dishQuantity;
         Price = price;
         Totalprice = totalprice;
+    }
+
+    public Cart() {
     }
 
     public String getChefId() {

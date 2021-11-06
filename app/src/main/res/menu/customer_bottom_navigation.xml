@@ -3,20 +3,20 @@
     <item
         android:id="@+id/customerHome"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="Home"/>
+        android:title="Trang chủ"/>
 
     <item
         android:id="@+id/cart"
         android:icon="@drawable/ic_baseline_shopping_cart_24"
-        android:title="Cart"/>
+        android:title="Giỏ hàng"/>
 
     <item
         android:id="@+id/detailOrders"
         android:icon="@drawable/ic_orders_24"
-        android:title="My orders"/>
+        android:title="Đơn hàng"/>
 
     <item
         android:id="@+id/customerProfile"
         android:icon="@drawable/ic_baseline_person_pin_24"
-        android:title="My Account"/>
+        android:title="Tài khoản"/>
 </menu>

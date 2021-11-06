@@ -18,6 +18,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.canteenfpt.R;
+import com.example.canteenfpt.chefFoodPanel.Chef;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -33,12 +34,12 @@ public class CustomerCartFragment extends Fragment {
     private List<Cart> cartModelList;
     private CustomerCartAdapter adapter;
     private LinearLayout TotalBtns;
-    DatabaseReference databaseReference, data, reference, ref, getRef, dataa;
-    public static TextView grandt;
+    DatabaseReference databaseReference;
+    public static TextView total;
     Button remove, placeorder;
     String DishId, RandomUId, ChefId;
     private ProgressDialog progressDialog;
-    
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -53,31 +54,31 @@ public class CustomerCartFragment extends Fragment {
         progressDialog.setCanceledOnTouchOutside(false);
         progressDialog.setCancelable(false);
         cartModelList = new ArrayList<>();
-        grandt = v.findViewById(R.id.GT);
+        total = v.findViewById(R.id.GT);
         remove = v.findViewById(R.id.RM);
         placeorder = v.findViewById(R.id.PO);
         TotalBtns = v.findViewById(R.id.TotalBtns);
-        
         customercart();
         return v;
     }
 
     private void customercart() {
         String userID = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        databaseReference = FirebaseDatabase.getInstance().getReference("Cart").child("CartItems").child(userID);
+
+        databaseReference = FirebaseDatabase.getInstance().getReference("Cart")
+                .child("CartItems").child(userID);
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 cartModelList.clear();
                 for (DataSnapshot snapshot1 : snapshot.getChildren()) {
-                    Cart cart = snapshot.getValue(Cart.class);
-
+                    Cart cart = snapshot1.getValue(Cart.class);
                     cartModelList.add(cart);
                 }
                 if(cartModelList.size() == 0){
                     TotalBtns.setVisibility(View.INVISIBLE);
                 }else{
-                    TotalBtns.setVisibility(View.INVISIBLE);
+                    TotalBtns.setVisibility(View.VISIBLE);
                     remove.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {

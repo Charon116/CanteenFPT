@@ -3,7 +3,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notification">Notification</string>
-
+    <string name="datdon">Đặt đơn</string>
+    <string name="xoatatca">Xoá tất cả</string>
+    <string name="tongsotien">Tổng số tiền</string>
     <string-array name="State">
         <item>DaNang</item>
     </string-array>
@@ -14,4 +16,6 @@
         <item>Mi Y</item>
         <item>Bun Bo</item>
     </string-array>
+
+
 </resources>

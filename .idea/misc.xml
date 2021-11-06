@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../layout/custom_preview.xml" value="0.1421875" />
         <entry key="..\:/CanteenFPT/app/src/main/res/drawable/btnred.xml" value="0.15726495726495726" />
         <entry key="..\:/CanteenFPT/app/src/main/res/drawable/button_shape.xml" value="0.15726495726495726" />
         <entry key="..\:/CanteenFPT/app/src/main/res/drawable/camerashapebtn.xml" value="0.326171875" />
@@ -52,7 +53,13 @@
         <entry key="..\:/CanteenFPT/app/src/main/res/menu/chef_bottom_navigation.xml" value="0.17657657657657658" />
         <entry key="..\:/CanteenFPT/app/src/main/res/menu/customer_bottom_navigation.xml" value="0.17657657657657658" />
         <entry key="..\:/CanteenFPT/app/src/main/res/menu/logout.xml" value="0.17657657657657658" />
+        <entry key="app/src/main/res/drawable/btnred.xml" value="0.265625" />
+        <entry key="app/src/main/res/layout/cart.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/cart_placeorder.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/customer_menufood.xml" value="0.17617753623188406" />
+        <entry key="app/src/main/res/layout/fragment_customer_cart.xml" value="0.1" />
         <entry key="app/src/main/res/menu/chef_bottom_navigation.xml" value="0.24947916666666667" />
+        <entry key="app/src/main/res/menu/customer_bottom_navigation.xml" value="0.24564102564102563" />
         <entry key="app/src/main/res/menu/logout.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/menu/search.xml" value="0.24947916666666667" />
       </map>

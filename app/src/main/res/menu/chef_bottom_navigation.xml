@@ -3,20 +3,20 @@
     <item
         android:id="@+id/chefHome"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="Home"/>
+        android:title="Trang chủ"/>
 
     <item
         android:id="@+id/pendingOrders"
         android:icon="@drawable/ic_pending_orders_24"
-        android:title="Pending Orders"/>
+        android:title="Đang chờ"/>
 
     <item
         android:id="@+id/Orders"
         android:icon="@drawable/ic_orders_24"
-        android:title="Orders"/>
+        android:title="Đơn hàng"/>
 
     <item
         android:id="@+id/ChefProfile"
         android:icon="@drawable/ic_addfood_menu_24"
-        android:title="Post Food"/>
+        android:title="Thêm sản phẩm"/>
 </menu>

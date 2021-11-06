@@ -70,7 +70,7 @@ public class CustomerCartAdapter extends RecyclerView.Adapter<CustomerCartAdapte
                 }
             }
         });
-        CustomerCartFragment.grandt.setText("Tổng tiền:  " + total+ "đ");
+        CustomerCartFragment.total.setText("Tổng tiền:  " + total+ "đ");
         FirebaseDatabase.getInstance().getReference("Cart").child("GrandTotal").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("GrandTotal").setValue(String.valueOf(total));
     }
 

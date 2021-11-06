@@ -89,7 +89,7 @@ public class CustomerHomeFragment extends Fragment implements SwipeRefreshLayout
         inflater.inflate(R.menu.search, menu);
         MenuItem menuItem = menu.findItem(R.id.Searchdish);
         searchView = (SearchView) menuItem.getActionView();
-        searchView.setQueryHint("Search Dish");
+        searchView.setQueryHint("Tìm kiếm");
     }
 
     @Override

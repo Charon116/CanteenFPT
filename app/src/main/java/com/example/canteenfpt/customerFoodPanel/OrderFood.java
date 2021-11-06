@@ -73,11 +73,11 @@ public class OrderFood extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         UpdateFoodModel updateDishModel = snapshot.getValue(UpdateFoodModel.class);
                         FoodName.setText(updateDishModel.getName());
-                        String qua = "<b>" + "Quantity: " + "</b>" + updateDishModel.getQuantity();
+                        String qua = "<b>" + "Số lượng : " + "</b>" + updateDishModel.getQuantity();
                         FoodQuantity.setText(Html.fromHtml(qua));
-                        String ss = "<b>" + "Description: " + "</b>" + updateDishModel.getDescription();
+                        String ss = "<b>" + "Mô tả : " + "</b>" + updateDishModel.getDescription();
                         FoodDescription.setText(Html.fromHtml(ss));
-                        String pri = "<b>" + "Price:  " + "</b>đ" + updateDishModel.getPrice();
+                        String pri = "<b>" + "Giá : " + "</b>" + updateDishModel.getPrice()+"đ";
                         FoodPrice.setText(Html.fromHtml(pri));
                         Glide.with(OrderFood.this).load(updateDishModel.getImageURL()).into(imageView);
 
@@ -181,7 +181,8 @@ public class OrderFood extends AppCompatActivity {
                                         });
                                     } else {
                                         AlertDialog.Builder builder = new AlertDialog.Builder(OrderFood.this);
-                                        builder.setMessage("You can't add food items of multiple chef at a time. Try to add items of same chef");
+                                        builder.setMessage("Bạn không thể thêm sản phẩm mới vào giỏ hàng. " +
+                                                "Vì số lượng có hạn cho học sinh,sinh viên, nên hãy đặt đơn hàng rồi đặt đơn mới.");
                                         builder.setCancelable(false);
                                         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                             @Override
@@ -218,7 +219,7 @@ public class OrderFood extends AppCompatActivity {
                                                 reference.setValue(hashMap).addOnSuccessListener(new OnSuccessListener<Void>() {
                                                     @Override
                                                     public void onSuccess(@NonNull Void unused) {
-                                                        Toast.makeText(OrderFood.this, "Added to cart", Toast.LENGTH_SHORT).show();
+                                                        Toast.makeText(OrderFood.this, "Thêm vào giỏ hàng", Toast.LENGTH_SHORT).show();
                                                     }
                                                 });
                                             } else {
