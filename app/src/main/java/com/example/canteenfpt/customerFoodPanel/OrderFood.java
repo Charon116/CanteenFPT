@@ -134,7 +134,7 @@ public class OrderFood extends AppCompatActivity {
                                     for (DataSnapshot snapshot1 : snapshot.getChildren()) {
                                         i++;
                                         if (i == totalcount) {
-                                            cart1 = snapshot.getValue(Cart.class);
+                                            cart1 = snapshot1.getValue(Cart.class);
                                         }
                                     }
 
@@ -181,8 +181,7 @@ public class OrderFood extends AppCompatActivity {
                                         });
                                     } else {
                                         AlertDialog.Builder builder = new AlertDialog.Builder(OrderFood.this);
-                                        builder.setMessage("Bạn không thể thêm sản phẩm mới vào giỏ hàng. " +
-                                                "Vì số lượng có hạn cho học sinh,sinh viên, nên hãy đặt đơn hàng rồi đặt đơn mới.");
+                                        builder.setMessage("Bạn không thể thêm sản phẩm mới vào giỏ hàng của nhiều nhà hàng. Hãy đặt sản phẩm một nhà hàng");
                                         builder.setCancelable(false);
                                         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                             @Override

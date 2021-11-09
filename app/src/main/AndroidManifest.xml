@@ -12,9 +12,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-
-        >
+        android:supportsRtl="true">
+        <activity
+            android:name=".chefFoodPanel.Chef_order_foods"
+            android:exported="true" />
         <activity
             android:name=".customerFoodPanel.OrderFood"
             android:exported="true" />
