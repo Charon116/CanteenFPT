@@ -59,13 +59,17 @@
         <entry key="app/src/main/res/drawable/ic_chef_hat_and_fork.xml" value="0.12222222222222222" />
         <entry key="app/src/main/res/layout/activity_chef_add_food.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/activity_chef_order_foods.xml" value="0.1234375" />
+        <entry key="app/src/main/res/layout/activity_customer_forgot_password.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_order_food.xml" value="0.12132725430597771" />
+        <entry key="app/src/main/res/layout/activity_payable_orders.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_pending_orders.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/cart.xml" value="0.165" />
         <entry key="app/src/main/res/layout/cart_placeorder.xml" value="0.25" />
         <entry key="app/src/main/res/layout/chef_order_foods.xml" value="0.25" />
         <entry key="app/src/main/res/layout/chef_orders.xml" value="0.25" />
         <entry key="app/src/main/res/layout/chefmenu_update_delete.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/customer_menufood.xml" value="0.17617753623188406" />
+        <entry key="app/src/main/res/layout/customer_payableorder.xml" value="0.25" />
         <entry key="app/src/main/res/layout/detail_product.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/fragment_chef_home.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/fragment_chef_orders.xml" value="0.12132725430597771" />
@@ -73,9 +77,10 @@
         <entry key="app/src/main/res/layout/fragment_chef_profile.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/fragment_customer_cart.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_customer_home.xml" value="0.12132725430597771" />
-        <entry key="app/src/main/res/layout/fragment_customer_orders.xml" value="0.12132725430597771" />
+        <entry key="app/src/main/res/layout/fragment_customer_orders.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_customer_profile.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/order_product.xml" value="0.12132725430597771" />
+        <entry key="app/src/main/res/layout/pending_order_dishes.xml" value="0.25" />
         <entry key="app/src/main/res/layout/start_product.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/start_signinsignup.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/menu/chef_bottom_navigation.xml" value="0.24947916666666667" />
