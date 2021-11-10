@@ -20,4 +20,27 @@
 
 
 
+    <LinearLayout
+        android:id="@+id/li2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:drawablePadding="8dp"
+            android:text="Thanh toán tiền mặt"
+            android:textColor="@color/black"
+            android:background="@color/mauapp"
+            android:textSize="19dp" />
+    </LinearLayout>
+
 </RelativeLayout>
