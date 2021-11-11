@@ -60,7 +60,7 @@ public class SignUpCustomer extends AppCompatActivity {
                     final ProgressDialog mDialog = new ProgressDialog(SignUpCustomer.this);
                     mDialog.setCancelable(false);
                     mDialog.setCanceledOnTouchOutside(false);
-                    mDialog.setMessage("Registration in progress please wait......");
+                    mDialog.setMessage("Đang đăng ký vui lòng chờ......");
                     mDialog.show();
 
                     FAuth.createUserWithEmailAndPassword(emailid,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -91,13 +91,12 @@ public class SignUpCustomer extends AppCompatActivity {
                                                 public void onComplete(@NonNull Task<Void> task) {
                                                     if(task.isSuccessful()){
                                                         AlertDialog.Builder builder = new AlertDialog.Builder(SignUpCustomer.this);
-                                                        builder.setMessage("You Have Registered! Make Sure To Verify Your Email");
+                                                        builder.setMessage("Bạn đã đăng ký! Vui lòng xác nhận tài khoản qua Email");
                                                         builder.setCancelable(false);
                                                         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                                                             @Override
                                                             public void onClick(DialogInterface dialogInterface, int i) {
                                                                 dialogInterface.dismiss();
-
                                                                 String phoneNumber = "+84" + phone ;
                                                                 Intent b = new Intent(SignUpCustomer.this,CustomerVerifyPhone.class);
                                                                 b.putExtra("phonenumber",phoneNumber);

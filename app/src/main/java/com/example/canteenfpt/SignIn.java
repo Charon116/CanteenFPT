@@ -76,12 +76,12 @@ public class SignIn extends AppCompatActivity {
                                         finish();
 
                                     }else{
-                                        ReusableCodeForAll.ShowAlert(SignIn.this,"Verification Failed","You Have Not Verified Your Email");
+                                        ReusableCodeForAll.ShowAlert(SignIn.this,"Chưa xác nhận","Bạn chưa xác nhận tài khoản qua Email");
 
                                     }
                                 }else{
                                     mDialog.dismiss();
-                                    ReusableCodeForAll.ShowAlert(SignIn.this,"Error",task.getException().getMessage());
+                                    ReusableCodeForAll.ShowAlert(SignIn.this,"Lỗi sai mật khẩu","Cần nhập lại mật khẩu");
                                 }
                             }
                         });
@@ -121,16 +121,16 @@ public class SignIn extends AppCompatActivity {
         edtPassword.setError("");
         boolean isvalid=false,isvalidemail=false,isvalidpassword=false;
         if(emailid.isEmpty()){
-            edtEmail.setError("Email is required");
+            edtEmail.setError("Cần nhập vào ô Email");
         }else{
             if(emailid.matches(emailpattern)){
                 isvalidemail=true;
             }else{
-                edtEmail.setError("Invalid Email Address");
+                edtEmail.setError("Email sai địa chỉ");
             }
         }
         if(password.isEmpty()){
-            edtPassword.setError("Password is Required");
+            edtPassword.setError("Cần nhập vào ô mật khẩu");
         }else{
             isvalidpassword=true;
         }

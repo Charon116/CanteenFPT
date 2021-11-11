@@ -114,7 +114,7 @@ public class UpdateDelete_Food extends AppCompatActivity {
                                 firebaseDatabase.getInstance().getReference("FoodDetails")
                                         .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(ID).removeValue();
                                 AlertDialog.Builder food = new AlertDialog.Builder(UpdateDelete_Food.this);
-                                food.setMessage("Your Dish Has Been Deleted!");
+                                food.setMessage("Món ăn của nhà hàng đã xoá!");
                                 food.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialogInterface, int i) {

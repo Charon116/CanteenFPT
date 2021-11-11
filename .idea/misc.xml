@@ -57,13 +57,15 @@
         <entry key="app/src/main/res/drawable/button_detail.xml" value="0.14322916666666666" />
         <entry key="app/src/main/res/drawable/button_shape.xml" value="0.14322916666666666" />
         <entry key="app/src/main/res/drawable/ic_chef_hat_and_fork.xml" value="0.12222222222222222" />
-        <entry key="app/src/main/res/layout/activity_chef_add_food.xml" value="0.12132725430597771" />
+        <entry key="app/src/main/res/layout/activity_chef_add_food.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_chef_food_panel_bottom_navigation.xml" value="0.12952898550724637" />
         <entry key="app/src/main/res/layout/activity_chef_order_foods.xml" value="0.1234375" />
         <entry key="app/src/main/res/layout/activity_customer_forgot_password.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_customer_payment.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_order_food.xml" value="0.12132725430597771" />
         <entry key="app/src/main/res/layout/activity_payable_orders.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_pending_orders.xml" value="0.12132725430597771" />
+        <entry key="app/src/main/res/layout/activity_sign_up_customer.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/layout/cart.xml" value="0.165" />
         <entry key="app/src/main/res/layout/cart_placeorder.xml" value="0.25" />
         <entry key="app/src/main/res/layout/chef_order_foods.xml" value="0.25" />

@@ -133,7 +133,7 @@ public class CustomerPayment extends AppCompatActivity {
                                                                                             @Override
                                                                                             public void onSuccess(Void aVoid) {
                                                                                                 AlertDialog.Builder builder = new AlertDialog.Builder(CustomerPayment.this);
-                                                                                                builder.setMessage("Phương thức thanh toán của bạn đã xác nhận, vui lòng chờ...");
+                                                                                                builder.setMessage("Phương thức thanh toán của bạn đã xác nhận, vui lòng chờ nhà hàng chuẩn bị và thông báo tới nhận đơn hàng...");
                                                                                                 builder.setCancelable(false);
                                                                                                 builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                                                                                     @Override

@@ -157,7 +157,7 @@ public class chef_addFood extends AppCompatActivity {
     private void uploadImage() {
         if (imageuri != null) {
             final ProgressDialog progressDialog = new ProgressDialog(chef_addFood.this);
-            progressDialog.setTitle("Uploading.....");
+            progressDialog.setTitle("Đang tải.....");
             progressDialog.show();
             RandomUID = UUID.randomUUID().toString();
             ref = storageReference.child(RandomUID);

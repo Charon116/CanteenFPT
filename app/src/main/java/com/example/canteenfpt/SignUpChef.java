@@ -60,7 +60,7 @@ public class SignUpChef extends AppCompatActivity {
                     final ProgressDialog mDialog = new ProgressDialog(SignUpChef.this);
                     mDialog.setCancelable(false);
                     mDialog.setCanceledOnTouchOutside(false);
-                    mDialog.setMessage("Registration in progress please wait......");
+                    mDialog.setMessage("Tiến hành đăng ký vui lòng chờ......");
                     mDialog.show();
 
                     FAuth.createUserWithEmailAndPassword(emailid,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -91,7 +91,7 @@ public class SignUpChef extends AppCompatActivity {
                                                 public void onComplete(@NonNull Task<Void> task) {
                                                     if(task.isSuccessful()){
                                                         AlertDialog.Builder builder = new AlertDialog.Builder(SignUpChef.this);
-                                                        builder.setMessage("You Have Registered! Make Sure To Verify Your Email");
+                                                        builder.setMessage("Bạn đã đăng ký! Vui lòng xác nhận tài khoản qua Email");
                                                         builder.setCancelable(false);
                                                         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                                                             @Override

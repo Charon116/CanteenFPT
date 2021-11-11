@@ -78,7 +78,6 @@ public class CustomerVerifyPhone extends AppCompatActivity {
             public void onFinish() {
                 resend.setVisibility(View.VISIBLE);
                 txt.setVisibility(View.INVISIBLE);
-
             }
         }.start();
 
