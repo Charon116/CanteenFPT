@@ -1,34 +1,16 @@
 package com.example.canteenfpt.customerFoodPanel;
 
 public class Customer {
-    private String FirstName,LastName,Password,ConfirmPassword,EmailId,MobileNo;
+    private String Password,ConfirmPassword,EmailId,PhoneNumber;
 
     public Customer() {
     }
 
-    public Customer(String firstName, String lastName, String password, String confirmPassword, String emailId, String mobileNo) {
-        FirstName = firstName;
-        LastName = lastName;
+    public Customer(String password, String confirmPassword, String emailId, String phoneNumber) {
         Password = password;
         ConfirmPassword = confirmPassword;
         EmailId = emailId;
-        MobileNo = mobileNo;
-    }
-
-    public String getFirstName() {
-        return FirstName;
-    }
-
-    public void setFirstName(String firstName) {
-        FirstName = firstName;
-    }
-
-    public String getLastName() {
-        return LastName;
-    }
-
-    public void setLastName(String lastName) {
-        LastName = lastName;
+        PhoneNumber = phoneNumber;
     }
 
     public String getPassword() {
@@ -55,11 +37,11 @@ public class Customer {
         EmailId = emailId;
     }
 
-    public String getMobileNo() {
-        return MobileNo;
+    public String getPhoneNumber() {
+        return PhoneNumber;
     }
 
-    public void setMobileNo(String mobileNo) {
-        MobileNo = mobileNo;
+    public void setPhoneNumber(String phoneNumber) {
+        PhoneNumber = phoneNumber;
     }
 }

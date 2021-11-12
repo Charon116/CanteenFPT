@@ -160,7 +160,7 @@ public class CustomerCartFragment extends Fragment {
                                                             String grandtotal = snapshot.getValue(String.class);
                                                             HashMap<String, String> hashMap1 = new HashMap<>();
                                                             hashMap1.put("GrandTotalPrice", String.valueOf(grandtotal));
-                                                            hashMap1.put("MobileNumber", customer.getMobileNo());
+                                                            hashMap1.put("MobileNumber", customer.getPhoneNumber());
                                                             hashMap1.put("Name", cart.getDishName());
                                                             FirebaseDatabase.getInstance().getReference("CustomerPendingOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(RandomUId).child("OtherInformation").setValue(hashMap1).addOnCompleteListener(new OnCompleteListener<Void>() {
                                                                 @Override
